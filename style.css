@@ -1,0 +1,194 @@
+.imgtop{
+    margin: 0 auto;
+    padding: 10px;
+    width: 95%;
+}
+.imgtop .img1{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+.imgtop .img2{
+    width: 150px;
+    height: 100px;
+    padding-right: 10px;
+}
+.imgtop .img3{
+    width: 150px;
+    height: 100px;
+    padding-right: 10px;
+}
+.imgtop .img4{
+    height: 100px;
+    width: 820px;
+}
+
+
+
+
+.navbar{
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right, orange, red);
+    padding: 15px 0;
+}
+.navbar .leftflote{
+    float: left;
+    margin-left: 30px;
+}
+.navbar .leftflote a{
+    padding: 0px 10px;
+   
+}
+.navbar .rightflote{
+    margin-left: 1125px;
+}
+.navbar .rightflote a{
+    padding: 0 10px;
+}
+.navbar .rightflote a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar .leftflote a:hover{
+    background-color: orange;
+    padding: 20px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+
+.notice{
+    width: 95%;
+    margin: 30px auto;
+    border: 1px solid black;
+    padding: 14px 0;
+}
+.notice div span{
+    color: white;
+    background-color: rgb(235, 60, 60);
+    padding: 17px 20px;
+    margin-right: 10px;
+}
+.imgmid{
+    width: 95%;
+    margin: 10px auto;
+}
+.imgmid .img6{
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+.container .left{
+    flex: 80%;
+    margin: 10px 10px;
+}
+.container .right{
+    flex: 20%;
+    margin: 10px 10px;
+}
+.h1{
+    color: #FC443C;
+    font-size: 25px;
+    font-weight: 900;
+    border-bottom: 2px solid #FC443C;
+    padding: 0 7px;
+    margin-top: 20px;
+}
+.f2{
+    display: flex;
+    margin: 0 20px;
+}
+.f2 .l{
+    flex: 50%;
+    line-height: 35px;
+}
+.f2 .r{
+    flex: 49%;
+    line-height: 35px;
+}
+.f2 .l ul li:hover{
+    cursor: pointer;
+    color: red;
+    transition-duration: 0.2s;
+}
+.f2 .r ul li:hover{
+    cursor: pointer;
+    color: red;
+    transition-duration: 0.2s;
+}
+
+
+
+.tt{
+    text-align: center;
+}
+.login{
+    background-image: linear-gradient(45deg, orange, red, red);
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+#phon{
+ font-size: 15px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+}
+#aply{
+    font-size: 15px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+}
+#but{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
+.vid{
+    width: 100%;
+    margin: 20px 0;
+}
+.ps{
+    width: 100%;
+    height: fit-content;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    
+    background-image: linear-gradient(to right, orange, red);
+    padding: 10px 40px;
+}
+.footer div{
+
+    color: white;
+    font-size: 14px;
+}
